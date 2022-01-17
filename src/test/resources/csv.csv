@@ -1,0 +1,14 @@
+Наименование;Реквизиты досье;Совпадения
+Полное наименование на русском языке;orgNameFullRu;orgNameFullRu
+Краткое наименование на русском языке;orgNameRu;orgNameRu
+Полное наименование на иностранном языке;orgNameFullIn;orgNameFullIn
+Краткое наименование на иностранном языке;orgNameIn;orgNameIn
+ОГРН;OGRN;OGRN
+Регистрационный номер;regNum;regNum
+ИНН;inn;inn
+Фамилия;lastName;lastName
+Имя;firstName;firstName
+Отчество;middleName;middleName
+Серия документа;series;series
+Номер документа;number;number
+СНИЛС;SNILS;SNILS
