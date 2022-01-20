@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="guru.qa.FileTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2022-01-20T16:16:30" hostname="WIN-QUEKTAQ6L29" time="7.833">
+  <properties/>
+  <testcase name="xlsTest()" classname="guru.qa.FileTest" time="0.511"/>
+  <testcase name="pdfTest()" classname="guru.qa.FileTest" time="0.419"/>
+  <testcase name="zipTest()" classname="guru.qa.FileTest" time="0.141"/>
+  <testcase name="downloadGradle()" classname="guru.qa.FileTest" time="6.754"/>
+  <testcase name="csvTest()" classname="guru.qa.FileTest" time="0.003"/>
+  <system-out><![CDATA[Генеральному директору ОПЕРАТОР ЭМ КОМИТА ПТЗ
+Зачисление платежа на лицевой счет
+Логинов ЮЛ ИНН 4930673187 просит зачислить поступившие по платежному
+поручению № 369 от 27.12.2021, плательщик: 4930673188 ИП Мушкетеров М.И. денежные
+средства, в размере 50000,00 руб. на ЛС 4930673187077847221.
+ДОКУМЕНТ ПОДПИСАН
+УСИЛЕННОЙ КВАЛИФИЦИРОВАННОЙ
+ЭЛЕКТРОННОЙ ПОДПИСЬЮ
+Сертификат: E7E3E0D511C825E499BE6695B711D421890E1D09
+Владелец: Генеральный директор
+ЗАО «Точилка LE»
+Ё-Моё,1'2+3_Инь&Янов Dj_Йожъ;«0.9%»("9/10")_ЫТЬ-
+@Петрович_№5:xyz
+Действителен: с 07.09.2021 по 07.09.2022
+Дата подписи: 27.12.2021 11:48:03 МСК
+
+csv2.csv
+pdf.pdf
+xls.xls
+]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 13 - let's create a new webdriver
+[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Creating folder: C:\Users\User\Documents\GitHub\Mikhail_Loginov\QaGuru\QaGuru-HW7\build\downloads\1642695391542_22252_13
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 97.0.4692.71 (resolved driver for Chrome 97)
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\97.0.4692.71\chromedriver.exe
+Starting ChromeDriver 97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247}) on port 64805
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+янв. 20, 2022 7:16:35 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+янв. 20, 2022 7:16:35 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 97, so returning the closest version found: 96
+янв. 20, 2022 7:16:35 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 97 of 96
+[Test worker] INFO com.codeborne.selenide.webdriver.HttpClientTimeouts - Changed connectTimeout from PT10S to PT10S
+[Test worker] INFO com.codeborne.selenide.webdriver.HttpClientTimeouts - Changed readTimeout from PT3M to PT3M
+[Test worker] INFO com.codeborne.selenide.webdriver.BrowserResizer - Set browser size to 1366x768
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=97.0.4692.71 Platform=WINDOWS
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 6.2.0
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 4.1.1 build revision: e8fcc2cecf
+[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 13: ChromeDriver -> ChromeDriver: chrome on WINDOWS (a8ba8a0b9feb97f5f0c4c9ea1cd13936)
+[Test worker] INFO com.codeborne.selenide.impl.DownloadFileWithHttpRequest - Cannot extract file name from http headers. Found headers: 
+[Test worker] INFO com.codeborne.selenide.impl.DownloadFileWithHttpRequest - Connection=keep-alive
+[Test worker] INFO com.codeborne.selenide.impl.DownloadFileWithHttpRequest - Cache-Control=max-age=300
+[Test worker] INFO com.codeborne.selenide.impl.DownloadFileWithHttpRequest - Content-Security-Policy=default-src 'none'; style-src 'unsafe-inline'; sandbox
+[Test worker] INFO com.codeborne.selenide.impl.DownloadFileWithHttpRequest - Content-Type=text/plain; charset=utf-8
+[Test worker] INFO com.codeborne.selenide.impl.DownloadFileWithHttpRequest - ETag=W/"b193fd420ed23329f1f74a15740cb0d29ca5f52a5edb12dd268a066bd54731f3"
+[Test worker] INFO com.codeborne.selenide.impl.DownloadFileWithHttpRequest - Strict-Transport-Security=max-age=31536000
+[Test worker] INFO com.codeborne.selenide.impl.DownloadFileWithHttpRequest - X-Content-Type-Options=nosniff
+[Test worker] INFO com.codeborne.selenide.impl.DownloadFileWithHttpRequest - X-Frame-Options=deny
+[Test worker] INFO com.codeborne.selenide.impl.DownloadFileWithHttpRequest - X-XSS-Protection=1; mode=block
+[Test worker] INFO com.codeborne.selenide.impl.DownloadFileWithHttpRequest - X-GitHub-Request-Id=6BCA:5142:A78FB3:C9162D:61E980DB
+[Test worker] INFO com.codeborne.selenide.impl.DownloadFileWithHttpRequest - Accept-Ranges=bytes
+[Test worker] INFO com.codeborne.selenide.impl.DownloadFileWithHttpRequest - Date=Thu, 20 Jan 2022 16:16:37 GMT
+[Test worker] INFO com.codeborne.selenide.impl.DownloadFileWithHttpRequest - Via=1.1 varnish
+[Test worker] INFO com.codeborne.selenide.impl.DownloadFileWithHttpRequest - X-Served-By=cache-hhn4051-HHN
+[Test worker] INFO com.codeborne.selenide.impl.DownloadFileWithHttpRequest - X-Cache=MISS
+[Test worker] INFO com.codeborne.selenide.impl.DownloadFileWithHttpRequest - X-Cache-Hits=0
+[Test worker] INFO com.codeborne.selenide.impl.DownloadFileWithHttpRequest - X-Timer=S1642695397.076639,VS0,VE131
+[Test worker] INFO com.codeborne.selenide.impl.DownloadFileWithHttpRequest - Vary=Authorization,Accept-Encoding,Origin
+[Test worker] INFO com.codeborne.selenide.impl.DownloadFileWithHttpRequest - Access-Control-Allow-Origin=*
+[Test worker] INFO com.codeborne.selenide.impl.DownloadFileWithHttpRequest - X-Fastly-Request-ID=ece980e6ba8f590d2da414c56303e3f58831187d
+[Test worker] INFO com.codeborne.selenide.impl.DownloadFileWithHttpRequest - Expires=Thu, 20 Jan 2022 16:21:37 GMT
+[Test worker] INFO com.codeborne.selenide.impl.DownloadFileWithHttpRequest - Source-Age=0
+[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Creating folder: C:\Users\User\Documents\GitHub\Mikhail_Loginov\QaGuru\QaGuru-HW7\build\downloads\ffe0c2da-0e88-41d7-8280-e51866f45436
+]]></system-err>
+</testsuite>
